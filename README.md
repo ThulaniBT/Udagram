@@ -31,7 +31,16 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
 
-## Stand Out (Optional)
+### Endpoint URL
+Endpoint URL:http://udagram-image-filter-dev.us-east-1.elasticbeanstalk.com
+
+Test URL1
+http://udagram-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://previews.123rf.com/images/iimages/iimages1503/iimages150300308/37631531-word-awesome-with-cloud-explosion-background.jpg
+
+Test URL2
+http://udagram-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.ryanhart.org/img/featured_numbers_555.jpg
+
+<!-- ## Stand Out (Optional)
 
 ### Refactor the course RESTapi
 
@@ -46,4 +55,4 @@ Prevent requests without valid authentication headers.
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
-# Udagram
+# Udagram -->
